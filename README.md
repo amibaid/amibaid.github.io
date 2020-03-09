@@ -1,6 +1,6 @@
 ## Welcome to my homepage!
 
-I am currently a high school sophomore
+I am currently a sophomore at Cal High. I am learning JavaScript as part of AP Compouter Science principles and Python on my own. I have a passion for science, math, and technology and am fascinated by the combination of these subjects in the modern world to solve all kinds of problems.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
