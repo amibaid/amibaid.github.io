@@ -1,5 +1,27 @@
-## Welcome to my homepage!
+###  About me
 
-I am currently a Turing Scholar at UT Austin studying Computer Science. I have a passion for science, math, and technology and am fascinated by the intersection of these subjects in the modern world to help solve all kinds of problems! Check out my GitHub profile to see my machine learning projects!
+- Studying computer science + mathematics as a [Turing Scholar](https://www.cs.utexas.edu/turing-scholars-honors-program) at UT Austin. I plan to graduate in Spring 2026, and am currently applying to graduate programs!
+- Undergraduate researcher in the UT Austin Computer Vision Lab, advised by [Prof. Kristen Grauman](https://www.cs.utexas.edu/~grauman/).
+-  I am excited about developing intelligent systems that can understand and reason over information from diverse modalities.
 
-<img width="300" alt="Screen Shot 2021-11-07 at 10 33 48 AM" src="https://user-images.githubusercontent.com/59634524/140657380-535d46a3-f3d0-4969-a015-eb384c581d3a.png">
+---
+
+### Research
+My research focuses on audio-visual multimodal learning, with a focus on reliably leveraging audio while mitigating noise and cross-modal confusion.
+- **Undergraduate honors thesis (in progress):** developing a preference optimization framework to reduce cross-modal hallucination in audio-visual language models.  
+- **Action2Sound (ECCV 2024, Oral) [[link]](https://vision.cs.utexas.edu/projects/action2sound/):** an ambient-aware video to audio generation approach that explicitly disentangles the action sound from the ambient sounds.
+- **Self-Supervised Visual-Acoustic Matching (NeurIPS 2023, acknowledged) [[link]](https://vision.cs.utexas.edu/projects/ss_vam/):**  a self-supervised visual acoustic matching method that re-synthesizes audio to match a target scene’s acoustics. 
+
+---
+
+### Internships
+
+- **Engineering intern, Stripe (summer 2025):** extended Stipe's LLM-based compliance detection system to support image understanding on merchant websites.  
+- **Software engineering intern, Salesforce (summer 2024):** automated a key workflow in Salesforce's internal Temporal platform and contributed to the open-source [Terraform Temporal provider](https://github.com/platacard/terraform-provider-temporal).  
+
+---
+
+### Other projects
+
+- **Gaze-centered Egocentric Video Representations [[GitHub]]():** built a gaze-aware preprocessing pipeline that reallocates resolution around gaze, improving efficiency in egocentric video QA.
+
