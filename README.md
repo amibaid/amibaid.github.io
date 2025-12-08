@@ -1,7 +1,7 @@
 ###  About me
 
-- Studying computer science + mathematics as a [Turing Scholar](https://www.cs.utexas.edu/turing-scholars-honors-program) at UT Austin. I plan to graduate in Spring 2026, and am currently applying to graduate programs!
-- Undergraduate researcher in the UT Austin Computer Vision Lab, advised by [Prof. Kristen Grauman](https://www.cs.utexas.edu/~grauman/).
+- **Studying computer science + mathematics** as a [Turing Scholar](https://www.cs.utexas.edu/turing-scholars-honors-program) at UT Austin. I plan to graduate in Spring 2026, and am currently applying to graduate programs!
+- **Undergraduate researcher** in the UT Austin Computer Vision Lab, advised by [Prof. Kristen Grauman](https://www.cs.utexas.edu/~grauman/).
 -  I am excited about developing intelligent systems that can understand and reason over information from diverse modalities.
 
 ---
