@@ -16,7 +16,7 @@ My research focuses on audio-visual multimodal learning, with a focus on reliabl
 
 ### Internships
 
-- **Engineering intern, Stripe (summer 2025):** extended Stipe's LLM-based compliance detection system to support image understanding on merchant websites.  
+- **Engineering intern, Stripe (summer 2025):** extended Stripe's LLM-based compliance detection system to support image understanding on merchant websites.  
 - **Software engineering intern, Salesforce (summer 2024):** automated a key workflow in Salesforce's internal Temporal platform and contributed to the open-source [Terraform Temporal provider](https://github.com/platacard/terraform-provider-temporal).  
 
 ---
