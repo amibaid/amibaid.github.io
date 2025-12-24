@@ -23,5 +23,5 @@ My research focuses on audio-visual multimodal learning, with a focus on reliabl
 
 ### Other projects
 
-- **Gaze-centered Egocentric Video Representations [[GitHub]]():** built a gaze-aware preprocessing pipeline that reallocates resolution around gaze, improving efficiency in egocentric video QA.
+- **Gaze-centered Egocentric Video Representations [[GitHub]](https://github.com/amibaid/381V-final-project):** built a gaze-aware preprocessing pipeline that reallocates resolution around gaze, improving efficiency in egocentric video QA.
 
