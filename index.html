@@ -91,15 +91,9 @@
       align-items: flex-start;
     }
 
-    .paper .thumb {
-      width: 120px;
-      height: 80px;
-      flex-shrink: 0;
-    }
-
     .paper img {
-      width: 120px;
-      height: 80px;
+      width: 260px;
+      height: 110px;
       object-fit: contain;
       flex-shrink: 0;
     }
@@ -112,13 +106,19 @@
       margin-bottom: 2px;
     }
 
+    .paper-authors {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 2px;
+    }
+
     .paper-venue {
       font-size: 14px;
       color: #555;
       margin-bottom: 2px;
     }
 
-    .paper-venue strong { color: #333; }
+    .paper-venue strong { color: #a84a4a; }
 
     .paper-desc {
       font-size: 14px;
@@ -126,7 +126,7 @@
     }
 
     /* ── General links ── */
-    a { color: #1772d0; }
+    a { color: #2b7a9e; text-decoration: none; }
     a:hover { text-decoration: underline; }
 
     footer {
@@ -152,7 +152,7 @@
     <div id="header-text">
       <h1>Ami Baid</h1>
       <ul>
-        <li><strong>Studying computer science + math</strong> as a <a href="https://www.cs.utexas.edu/turing-scholars-honors-program">Turing Scholar</a> at UT Austin. I'm graduating in Spring 2026 and starting my Master's in CS at Stanford in the fall!🌲</li>
+        <li><strong>Studying computer science + math</strong> as a <a href="https://www.cs.utexas.edu/turing-scholars-honors-program">Turing Scholar</a> at UT Austin. I'm graduating in Spring 2026 and starting my Master's in CS at Stanford in the fall🌲</li>
         <li><strong>Undergraduate researcher</strong> in the UT Austin Computer Vision Lab, advised by Professor <a href="https://www.cs.utexas.edu/~grauman/">Kristen Grauman</a>.</li>
         <li>I am excited about developing intelligent systems that can understand and reason over information from diverse modalities.</li>
       </ul>
@@ -169,19 +169,20 @@
   <p>My research focuses on audio-visual multimodal learning, with a focus on reliably leveraging audio while mitigating noise and cross-modal confusion.</p>
 
   <div class="paper">
-    <div class="thumb" style="background:#fff;border:none;"></div>
+    <img src="assets/img/acpo.png" alt="ACPO" />
     <div class="paper-info">
-      <div class="paper-title">Undergraduate Honors Thesis (in progress)</div>
-      <div class="paper-desc">Developing a preference optimization framework to reduce video-driven audio hallucination in audio-visual language models.</div>
+      <div class="paper-title">Don't Let the Video Speak: Audio-Contrastive Preference Optimization for Audio-Visual Language Models</div>
+      <div class="paper-authors"><strong>Ami Baid</strong>, Zihui Xue, Kristen Grauman</div>
+      <div class="paper-venue"><strong>arXiv 2026</strong> &nbsp; [<a href="https://arxiv.org/abs/2604.14129">paper</a>] [<a href="https://vision.cs.utexas.edu/projects/acpo/">project page</a>]</div>
     </div>
   </div>
 
   <div class="paper">
     <img src="assets/img/action2sound.jpg" alt="Action2Sound" />
     <div class="paper-info">
-      <div class="paper-title">Action2Sound</div>
-      <div class="paper-venue"><strong>ECCV 2024, Oral</strong></div>
-      <div class="paper-desc">An ambient-aware video to audio generation approach that explicitly disentangles the action sound from the ambient sounds. [<a href="https://vision.cs.utexas.edu/projects/action2sound/">link</a>]</div>
+      <div class="paper-title">Action2Sound: Ambient-Aware Generation of Action Sounds from Egocentric Videos</div>
+      <div class="paper-authors">Changan Chen, Puyuan Peng, <strong>Ami Baid</strong>, Zihui Xue, Wei-Ning Hsu, David Harwath, Kristen Grauman</div>
+      <div class="paper-venue"><strong>ECCV 2024, Oral</strong> &nbsp; [<a href="https://arxiv.org/abs/2406.09272">paper</a>] [<a href="https://vision.cs.utexas.edu/projects/action2sound/">project page</a>]</div>
     </div>
   </div>
 
@@ -189,8 +190,8 @@
     <img src="assets/img/ss_vam_figure.png" alt="Self-Supervised Visual-Acoustic Matching" />
     <div class="paper-info">
       <div class="paper-title">Self-Supervised Visual-Acoustic Matching</div>
-      <div class="paper-venue"><strong>NeurIPS 2023</strong></div>
-      <div class="paper-desc">A self-supervised visual acoustic matching method that re-synthesizes audio to match a target scene's acoustics. [<a href="https://vision.cs.utexas.edu/projects/ss_vam/">link</a>]</div>
+      <div class="paper-authors">Arjun Somayazulu, Changan Chen, Kristen Grauman</div>
+      <div class="paper-venue"><strong>NeurIPS 2023</strong> &nbsp; [<a href="https://arxiv.org/abs/2307.15064">paper</a>] [<a href="https://vision.cs.utexas.edu/projects/ss_vam/">project page</a>]</div>
     </div>
   </div>
 
