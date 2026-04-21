@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ami Baid</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <style>
     body {
-      font-family: 'Lato', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-size: 15px;
-      line-height: 1.6;
+      line-height: 1.75;
       color: #333;
       background: #fff;
       margin: 0;
@@ -19,75 +20,84 @@
 
     #main {
       max-width: 800px;
-      margin: 40px auto;
-      padding: 0 24px 60px;
+      margin: 60px auto;
+      padding: 0 24px 80px;
     }
 
     /* ── Header ── */
     #header {
       display: flex;
-      gap: 30px;
+      gap: 60px;
       align-items: flex-start;
-      margin-bottom: 28px;
+      margin-bottom: 48px;
     }
 
     #header img {
-      width: 160px;
-      height: 160px;
-      border-radius: 50%;
+      width: 220px;
+      height: 280px;
+      border-radius: 0;
       object-fit: cover;
       flex-shrink: 0;
+      order: 2;
+      margin-top: 24px;
+    }
+
+    #header-text {
+      order: 1;
+      flex: 1;
+      line-height: 1.6;
     }
 
     #header-text h1 {
-      font-size: 26px;
-      font-weight: 700;
-      margin: 0 0 8px;
+      font-size: 30px;
+      font-weight: 600;
+      margin: 0 0 16px;
+      text-align: center;
     }
 
     #header-text p {
-      margin: 0 0 6px;
+      margin: 0 0 10px;
       font-size: 15px;
     }
 
     #header-links {
-      margin-top: 8px;
+      margin-top: 14px;
       font-size: 14px;
+      text-align: center;
     }
 
     #header-links a {
-      color: #555;
+      color: #2b7a9e;
       text-decoration: none;
     }
 
     #header-links a:hover {
-      color: #000;
       text-decoration: underline;
     }
 
     /* ── Sections ── */
     h2 {
-      font-size: 20px;
-      font-weight: 700;
-      margin: 28px 0 8px;
+      font-size: 22px;
+      font-weight: 600;
+      margin: 32px 0 14px;
       border-bottom: 1px solid #e0e0e0;
-      padding-bottom: 3px;
+      padding-bottom: 6px;
     }
 
-    p { margin: 0 0 8px; }
+    p { margin: 0 0 14px; }
 
     ul {
-      margin: 0 0 8px;
+      margin: 0 0 14px;
       padding-left: 22px;
     }
 
-    li { margin-bottom: 4px; }
+    li { margin-bottom: 10px; }
 
     /* ── Papers ── */
     .paper {
       display: flex;
-      gap: 16px;
-      margin-bottom: 16px;
+      gap: 24px;
+      margin-bottom: 28px;
       align-items: flex-start;
     }
 
@@ -98,24 +108,24 @@
       flex-shrink: 0;
     }
 
-    .paper-info { flex: 1; }
+    .paper-info { flex: 1; line-height: 1.4; }
 
     .paper-title {
       font-weight: 700;
       font-size: 14.5px;
-      margin-bottom: 2px;
+      margin-bottom: 10px;
     }
 
     .paper-authors {
       font-size: 14px;
       color: #555;
-      margin-bottom: 2px;
+      margin-bottom: 4px;
     }
 
     .paper-venue {
       font-size: 14px;
       color: #555;
-      margin-bottom: 2px;
+      margin-bottom: 4px;
     }
 
     .paper-venue strong { color: #a84a4a; }
@@ -128,6 +138,8 @@
     /* ── General links ── */
     a { color: #2b7a9e; text-decoration: none; }
     a:hover { text-decoration: underline; }
+
+    strong, b { font-weight: 600; font-size: 1.05em; }
 
     footer {
       margin-top: 40px;
@@ -151,11 +163,9 @@
     <img src="assets/img/ami.png" alt="Ami Baid" />
     <div id="header-text">
       <h1>Ami Baid</h1>
-      <ul>
-        <li><strong>Studying computer science + math</strong> as a <a href="https://www.cs.utexas.edu/turing-scholars-honors-program">Turing Scholar</a> at UT Austin. I'm graduating in Spring 2026 and starting my Master's in CS at Stanford in the fall🌲</li>
-        <li><strong>Undergraduate researcher</strong> in the UT Austin Computer Vision Lab, advised by Professor <a href="https://www.cs.utexas.edu/~grauman/">Kristen Grauman</a>.</li>
-        <li>I am excited about developing intelligent systems that can understand and reason over information from diverse modalities.</li>
-      </ul>
+      <p>I'm a senior at UT Austin studying computer science and math as a <a href="https://www.cs.utexas.edu/turing-scholars-honors-program">Turing Scholar</a>, and an undergraduate researcher in the UT Austin Computer Vision Lab advised by Professor <a href="https://www.cs.utexas.edu/~grauman/">Kristen Grauman</a>.</p>
+      <p>I'm graduating in Spring 2026 and will be starting my Master's in CS at Stanford in the fall🌲</p>
+      <p>My research focuses on audio-visual multimodal learning. I'm excited about developing intelligent systems that can understand and reason over information from diverse modalities.</p>
       <div id="header-links">
         <a href="mailto:amibaid14@gmail.com">Email</a> &nbsp;/&nbsp;
         <a href="https://github.com/amibaid">GitHub</a>
@@ -166,7 +176,7 @@
   <!-- Research -->
   <h2>Research</h2>
 
-  <p>My research focuses on audio-visual multimodal learning, with a focus on reliably leveraging audio while mitigating noise and cross-modal confusion.</p>
+  <p>My research centers on reliably leveraging audio in multimodal models while mitigating cross-modal interference.</p>
 
   <div class="paper">
     <img src="assets/img/acpo.png" alt="ACPO" />
